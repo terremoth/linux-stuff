@@ -58,6 +58,10 @@ add-apt-repository ppa:ubuntuhandbook1/apps
 
 add-apt-repository ppa:fossfreedom/rhythmbox-plugins
 
+add-apt-repository ppa:paulo-miguel-dias/pkppa
+
+add-apt-repository ppa:oibaf/graphics-drivers
+
 apt update -y
 
 apt install unetbootin -y
@@ -66,8 +70,6 @@ curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt
 
 echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ trusty main" | sudo tee /etc/apt/sources.list.d/brave-browser-release-trusty.list
 
-sudo apt update -y
+apt update -y
 
-sudo apt install brave-browser -y
-
-# apt install google-chrome-stable
+apt install brave-browser -y
