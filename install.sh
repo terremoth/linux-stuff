@@ -4,7 +4,7 @@ su
 
 apt install sudo -y
 
-apt update && apt upgrade && apt dist-upgrade && apt autoremove
+apt update -y && apt upgrade -y && apt dist-upgrade -y && do-release-upgrade && apt autoremove
 
 apt install software-properties-common -y
 
