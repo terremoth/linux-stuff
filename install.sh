@@ -1,66 +1,17 @@
 #!/bin/sh
 
-su
+sudo apt install firmware-linux-nonfree -y
 
-apt install sudo -y
+sudo apt install vim nano pv build-essential software-properties-common gcc gdb bc sed info gzip zip unzip wine dirmngr dialog ccze dosbox openjdk-14-* slurm ncdu rhythmbox curl gparted qbittorrent pidgin hexchat hardinfo testdisk libreoffice gimp inkscape chromium-browser net-tools mpv -y
+sudo apt install ffmpeg youtube-dl -y
+sudo apt install smtube minitube yowsup-cli -y
+sudo apt install python-pip -y
 
-apt update -y && apt upgrade -y && apt dist-upgrade -y && do-release-upgrade && apt autoremove
+sudo add-apt-repository ppa:gezakovacs/ppa
 
-apt install software-properties-common -y
+sudo add-apt-repository ppa:paulo-miguel-dias/pkppa
 
-apt install apt-transport-https -y
-
-apt install gcc gdb vim nano bc sed gawk -y
-
-apt install build-essential -y
-
-apt install info -y
-
-apt install wget curl -y
-
-apt install gzip zip unzip wine -y
-
-apt install git gitflow -y
-
-apt install dirmngr dialog ccze -y
-
-apt install firmware-realtek -y
-
-apt install firmware-linux-nonfree -y
-
-apt install rhythmbox dosbox -y
-
-apt install openjdk-* -y
-
-apt install gparted ncdu nmon slurm -y
-
-apt install qbittorrent pidgin -y
-
-apt install hardinfo -y
-
-apt install openssh-client htop -y
-
-apt install testdisk -y
-
-apt install libreoffice -y
-
-apt install ffmpeg youtube-dl audacity -y
-
-apt install vlc -y
-
-apt install xpdf -y
-
-apt install gimp inkscape -y
-
-add-apt-repository ppa:gezakovacs/ppa
-
-add-apt-repository ppa:ubuntuhandbook1/apps
-
-add-apt-repository ppa:fossfreedom/rhythmbox-plugins
-
-add-apt-repository ppa:paulo-miguel-dias/pkppa
-
-add-apt-repository ppa:oibaf/graphics-drivers
+sudo add-apt-repository ppa:oibaf/graphics-drivers
 
 apt update -y
 
