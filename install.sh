@@ -2,7 +2,7 @@
 
 sudo apt install firmware-linux-nonfree -y
 
-sudo apt install vim nano pv build-essential software-properties-common gcc gdb bc sed info gzip zip unzip wine dirmngr dialog ccze dosbox openjdk-14-* slurm ncdu rhythmbox curl gparted qbittorrent pidgin hexchat hardinfo testdisk libreoffice gimp inkscape chromium-browser net-tools mpv -y
+sudo apt install vim nano pv build-essential software-properties-common gcc gdb bc sed info gzip zip unzip wine dirmngr dialog ccze dosbox default-jdk slurm ncdu rhythmbox curl gparted qbittorrent pidgin hexchat hardinfo testdisk libreoffice gimp inkscape chromium-browser net-tools mpv -y
 sudo apt install ffmpeg youtube-dl -y
 sudo apt install smtube minitube yowsup-cli -y
 sudo apt install python-pip -y
