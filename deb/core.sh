@@ -17,6 +17,7 @@ sudo apt install vim-gtk3 nano neovim -y         # most common text editors
 
 # shell programs
 sudo apt install util-linux -y                   # provides softwares to system maintenance 
+sudo apt install software-properties-common -y   # allows easily manage distribution and independent software vendor software sources 
 sudo apt install pv -y                           # progress data monitor via pipe
 sudo apt install bc -y                           # arbitrary precision calculator
 sudo apt install sed -y                          # text stream editor
@@ -28,6 +29,8 @@ sudo apt install ccze -y                         # log colorizer
 sudo apt install ncdu -y                         # disk usage viewer
 sudo apt install htop -y                         # real time command line process monitor
 sudo apt install apt-transport-https -y          # https in apt
+sudo apt install ack -y                          # grep better alternative
+sudo apt install libmagickwand-dev -y            # static libraries needed to compile programs using MagickWand
 
 # Network related shell tools
 sudo apt install net-tools -y                    # allow network commands like arp, ifconfig, netstat, rarp, nameif and route 
@@ -57,6 +60,12 @@ sudo apt install markdown -y                     # Markdown text to html
 sudo apt install php -y                          # PHP language
 sudo apt install composer -y                     # PHP repositories downloader/updater
 sudo apt install perl -y                         # PERL Language
+sudo apt install libssl-dev -y                   # essential development libs, files and man pages to libssl and libcrypto
+sudo apt install exuberant-ctags -y              # parses source code and produces a sort of index mapping the names of significant entities
+sudo apt install ncurses-term -y                 # optimized character screens updater for terminal 
+sudo apt install fontconfig -y                   # font configuration and customization library
+sudo apt install memcached libmemcached-dev -y   # caches database results in memory
+sudo apt install sqlite sqlite-doc -y            # Minimal SQL database
 
 # Multimedia tools
 sudo apt install rhythmbox -y                    # music player
