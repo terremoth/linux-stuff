@@ -1,2 +1,5 @@
 # Linux Auto Install Nice Stuffs
-My Linux auto-install debain-based system stuffs, like firmwares, drivers and softwares
+My Linux auto-install linux software
+
+### Why every single line has an install command?
+To indent and comment well every package. Shellscript limitations to read code.
