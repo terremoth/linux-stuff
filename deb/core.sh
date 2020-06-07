@@ -1,10 +1,5 @@
 #!/bin/sh
 
-# Install sudo if is not installed
-su
-apt install sudo
-exit
-
 # Update and Upgrade system packages before installation
 sudo apt update -y
 sudo apt upgrade -y
