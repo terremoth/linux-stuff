@@ -1,26 +1,74 @@
 #!/bin/sh
 
-sudo apt install firmware-linux-nonfree -y
+# Install sudo if is not installed
+su
+apt install sudo
+exit
 
-sudo apt install vim nano pv build-essential software-properties-common gcc gdb bc sed info gzip zip unzip wine dirmngr dialog ccze dosbox default-jdk slurm ncdu rhythmbox curl gparted qbittorrent pidgin hexchat hardinfo testdisk libreoffice gimp inkscape chromium-browser net-tools mpv -y
-sudo apt install ffmpeg youtube-dl -y
-sudo apt install smtube minitube yowsup-cli -y
-sudo apt install python-pip -y
+# Update and Upgrade system packages before installation
+sudo apt update -y
+sudo apt upgrade -y
 
-sudo add-apt-repository ppa:gezakovacs/ppa
+# Firmware
+sudo apt install firmware-linux-nonfree -y       # non-free firmware: comment this whole line if you don't want non-freeware
 
-sudo add-apt-repository ppa:paulo-miguel-dias/pkppa
+# code/file editors
+sudo apt install vim-gtk3 nano neovim -y         # most common text editors
 
-sudo add-apt-repository ppa:oibaf/graphics-drivers
+# shell programs
+sudo apt install util-linux -y                   # provides softwares to system maintenance 
+sudo apt install pv -y                           # progress data monitor via pipe
+sudo apt install bc -y                           # arbitrary precision calculator
+sudo apt install sed -y                          # text stream editor
+sudo apt install info -y                         # man alternative
+sudo apt install gzip zip unzip xz unrar ark -y  # zip files utilities
+sudo apt install dirmngr -y                      # server for managing and downloading/update OpenPGP and X.509 certificates
+sudo apt install dialog -y                       # various GUI dialogs boxes to help development shell script programs  
+sudo apt install ccze -y                         # log colorizer
+sudo apt install ncdu -y                         # disk usage viewer
+sudo apt install htop -y                         # real time command line process monitor
 
-apt update -y
+# Network related shell tools
+sudo apt install net-tools -y                    # allow network commands like arp, ifconfig, netstat, rarp, nameif and route 
+sudo apt install slurm -y                        # network monitor
+sudo apt install netcat -y                       # arbitrary TCP and UDP connections and listens
+sudo apt install telnet -y                       # interface to telnet protocol
+sudo apt install curl -y                         # requester, most used url transfer
+sudo apt install wget -y                         # network downloader
 
-apt install unetbootin -y
+# Gaming
+sudo apt install wine dosbox -y                  # most common utilites used for gaming with windows compatibility today
+sudo apt install bsdgames -y                     # command line common games 
+sudo apt install bsdgames-nonfree -y             # command line common games but not free: comment this whole line if you don't want non-free software
 
-curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
+# Programming languages and programming environment
+sudo apt install git git-flow -y                 # default software versioning 
+sudo apt install build-essential -y              # it will install commont tools to create deb packages like make and gcc
+sudo apt install software-properties-common -y   # easily manage your distribution and independent software vendor software sources
+sudo apt install gcc gdb -y                      # GNU compilers collection + GNU Debugger (C, C++)
+sudo apt install default-jdk -y                  # Default Java Development Toolkit
+sudo apt install fasm nasm -y                    # most common assemblers
+sudo apt install python -y                       # Python language
+sudo apt install python-pip -y                   # Python repositories downloader/updater
+sudo apt install markdown -y                     # Markdown text to html
+sudo apt install php -y                          # PHP language
+sudo apt install composer -y                     # PHP repositories downloader/updater
+sudo apt install perl -y                         # PERL Language
 
-echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ trusty main" | sudo tee /etc/apt/sources.list.d/brave-browser-release-trusty.list
+# Multimedia tools
+sudo apt install rhythmbox -y                    # music player
+sudo apt install qbittorrent -y                  # most complete and free torrent downloader
+sudo apt install pidgin hexchat -y               # internet chating such ass IRCs
+sudo apt install libreoffice -y                  # Libre Office Suite
+sudo apt install gimp inkscape imagemagick -y    # Image creation and manipulation programs
+sudo apt install mpv -y                          # simple media player - can also play youtube videos
+sudo apt install ffmpeg -y                       # mpeg tools
+sudo apt install youtube-dl -y                   # Command-line Video Downloader - support more than 100 sites 
+sudo apt install smtube -y                       # Youtube videos browser
+sudo apt install kdenlive -y                     # Video Creator/Editor
+sudo apt install blender -y                      # Graphic modeler, also create videos with effects
 
-apt update -y
-
-apt install brave-browser -y
+# Hardware related
+sudo apt install gparted -y                      # disk partition tools
+sudo apt install testdisk -y                     # HDD disk+files recovery tool 
+sudo apt install hardinfo -y                     # your hardware information tool
