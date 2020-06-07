@@ -35,6 +35,8 @@ sudo apt install netcat -y                       # arbitrary TCP and UDP connect
 sudo apt install telnet -y                       # interface to telnet protocol
 sudo apt install curl -y                         # requester, most used url transfer
 sudo apt install wget -y                         # network downloader
+sudo apt install ssh -y                          # ssh server/client
+sudo apt install openssl -y                      # SSL/TLS tools
 
 # Gaming
 sudo apt install wine dosbox -y                  # most common utilites used for gaming with windows compatibility today
