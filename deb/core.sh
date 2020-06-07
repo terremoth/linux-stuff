@@ -27,6 +27,7 @@ sudo apt install dialog -y                       # various GUI dialogs boxes to 
 sudo apt install ccze -y                         # log colorizer
 sudo apt install ncdu -y                         # disk usage viewer
 sudo apt install htop -y                         # real time command line process monitor
+sudo apt install apt-transport-https -y          # https in apt
 
 # Network related shell tools
 sudo apt install net-tools -y                    # allow network commands like arp, ifconfig, netstat, rarp, nameif and route 
