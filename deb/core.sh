@@ -26,6 +26,7 @@ sudo apt install htop -y                         # real time command line proces
 sudo apt install apt-transport-https -y          # https in apt
 sudo apt install ack -y                          # grep better alternative
 sudo apt install libmagickwand-dev -y            # static libraries needed to compile programs using MagickWand
+sudo apt install tree -y                         # generates a tree of the select directory
 
 # Network related shell tools
 sudo apt install net-tools -y                    # allow network commands like arp, ifconfig, netstat, rarp, nameif and route 
