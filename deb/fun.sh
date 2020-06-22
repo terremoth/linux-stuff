@@ -17,4 +17,8 @@ sudo apt install asciiart -y                   # images to ascii art
 sudo apt install img2text -y                   # images to ascii art 2
 sudo apt install sl -y                         # steam locomotive animated ascii
 sudo apt install bb -y                         # libaa demo
-sudo apt install frotz -y                      # text based adventure game
+sudo apt install frotz -y                      # story-filez game interpreter
+sudo apt install textdraw -y                   # draw ascii graphics on terminal
+sudo apt install cadubi -y                     # draw ascii graphics on terminal 2
+sudo apt install boxes -y                      # draw predefined boxes aroud text
+sudo apt install linuxlogo -y                  # display linux linux logos
