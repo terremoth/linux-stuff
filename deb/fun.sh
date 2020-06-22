@@ -11,3 +11,10 @@ sudo apt install libaa-bin -y                  # ascii graphics
 sudo apt install sysvbanner -y                 # like toilet but limited to 10 chars
 sudo apt install aview -y                      # images to ascii art
 sudo apt install rig -y                        # generate fake data real-like
+sudo apt install caca-utils -y                 # colorfull ascii art library
+sudo apt install jp2a -y                       # jpeg to ascii
+sudo apt install asciiart -y                   # images to ascii art
+sudo apt install img2text -y                   # images to ascii art 2
+sudo apt install sl -y                         # steam locomotive animated ascii
+sudo apt install bb -y                         # libaa demo
+sudo apt install frotz -y                      # text based adventure game
