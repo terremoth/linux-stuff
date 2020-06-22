@@ -21,4 +21,5 @@ sudo apt install frotz -y                      # story-filez game interpreter
 sudo apt install textdraw -y                   # draw ascii graphics on terminal
 sudo apt install cadubi -y                     # draw ascii graphics on terminal 2
 sudo apt install boxes -y                      # draw predefined boxes aroud text
-sudo apt install linuxlogo -y                  # display linux linux logos
+sudo apt install linuxlogo -y                  # display linux logos
+sudo apt install metapixel -y                  # create image mosaics on terminal
