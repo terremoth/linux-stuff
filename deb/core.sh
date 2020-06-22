@@ -78,6 +78,7 @@ sudo apt install smtube -y                       # Youtube videos browser
 sudo apt install kdenlive -y                     # Video Creator/Editor
 sudo apt install blender -y                      # Graphic modeler, also create videos with effects
 sudo apt install firefox -y                      # Mozilla Firefox Web Browser
+sudo apt install mplayer -y                      # Simple audio/video player
 
 # Hardware related
 sudo apt install gparted -y                      # disk partition tools
