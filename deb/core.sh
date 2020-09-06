@@ -67,6 +67,7 @@ sudo apt install sqlite sqlite-doc -y            # Minimal SQL database
 
 # Multimedia tools
 sudo apt install rhythmbox -y                    # music player
+sudo apt install clementine -y                   # music player less bugged
 sudo apt install qbittorrent -y                  # most complete and free torrent downloader
 sudo apt install pidgin hexchat -y               # internet chating such ass IRCs
 sudo apt install libreoffice -y                  # Libre Office Suite
@@ -79,8 +80,12 @@ sudo apt install kdenlive -y                     # Video Creator/Editor
 sudo apt install blender -y                      # Graphic modeler, also create videos with effects
 sudo apt install firefox -y                      # Mozilla Firefox Web Browser
 sudo apt install mplayer -y                      # Simple audio/video player
+sudo apt install cmus mp3blaster -y              # terminal music player
 
 # Hardware related
 sudo apt install gparted -y                      # disk partition tools
 sudo apt install testdisk -y                     # HDD disk+files recovery tool 
 sudo apt install hardinfo -y                     # your hardware information tool
+
+# General day to day utility
+sudo apt install redshift-gtk -y                 # Night mode screen
