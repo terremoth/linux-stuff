@@ -17,7 +17,7 @@ sudo apt install pv -y                           # progress data monitor via pip
 sudo apt install bc -y                           # arbitrary precision calculator
 sudo apt install sed -y                          # text stream editor
 sudo apt install info -y                         # man alternative
-sudo apt install gzip zip unzip xz unrar ark -y  # zip files utilities
+sudo apt install gzip zip unzip unrar ark -y  # zip files utilities
 sudo apt install dirmngr -y                      # server for managing and downloading/update OpenPGP and X.509 certificates
 sudo apt install dialog -y                       # various GUI dialogs boxes to help development shell script programs  
 sudo apt install ccze -y                         # log colorizer
