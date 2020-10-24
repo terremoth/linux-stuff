@@ -82,10 +82,13 @@ sudo apt install firefox -y                      # Mozilla Firefox Web Browser
 sudo apt install mplayer -y                      # Simple audio/video player
 sudo apt install cmus mp3blaster -y              # terminal music player
 
-# Hardware related
+# Hardware/System related
 sudo apt install gparted -y                      # disk partition tools
 sudo apt install testdisk -y                     # HDD disk+files recovery tool 
 sudo apt install hardinfo -y                     # your hardware information tool
+sudo apt install timeshift -y                    # System Restore utility
+sudo apt install deja-dup -y                     # Backup utility
+sudo apt install gnome-boxes -y                  # Access remove or virtual systems
 
 # General day to day utility
 sudo apt install redshift-gtk -y                 # Night mode screen
