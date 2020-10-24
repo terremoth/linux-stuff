@@ -81,6 +81,8 @@ sudo apt install blender -y                      # Graphic modeler, also create 
 sudo apt install firefox -y                      # Mozilla Firefox Web Browser
 sudo apt install mplayer -y                      # Simple audio/video player
 sudo apt install cmus mp3blaster -y              # terminal music player
+sudo apt install vlc -y                          # Media Player
+sudo apt install mypaint -y                      # Drawing graphics tool
 
 # Hardware/System related
 sudo apt install gparted -y                      # disk partition tools
