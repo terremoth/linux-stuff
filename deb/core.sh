@@ -49,21 +49,12 @@ sudo apt install bsdgames-nonfree -y             # command line common games but
 sudo apt install git git-flow -y                 # default software versioning 
 sudo apt install build-essential -y              # it will install commont tools to create deb packages like make and gcc
 sudo apt install software-properties-common -y   # easily manage your distribution and independent software vendor software sources
-sudo apt install gcc gdb -y                      # GNU compilers collection + GNU Debugger (C, C++)
-sudo apt install default-jdk -y                  # Default Java Development Toolkit
-sudo apt install fasm nasm -y                    # most common assemblers
-sudo apt install python -y                       # Python language
-sudo apt install python-pip -y                   # Python repositories downloader/updater
-sudo apt install markdown -y                     # Markdown text to html
-sudo apt install php -y                          # PHP language
-sudo apt install composer -y                     # PHP repositories downloader/updater
-sudo apt install perl -y                         # PERL Language
 sudo apt install libssl-dev -y                   # essential development libs, files and man pages to libssl and libcrypto
 sudo apt install exuberant-ctags -y              # parses source code and produces a sort of index mapping the names of significant entities
 sudo apt install ncurses-term -y                 # optimized character screens updater for terminal 
 sudo apt install fontconfig -y                   # font configuration and customization library
 sudo apt install memcached libmemcached-dev -y   # caches database results in memory
-sudo apt install sqlite sqlite-doc -y            # Minimal SQL database
+sudo apt install podman -y                       # similar to docker
 
 # Multimedia tools
 sudo apt install rhythmbox -y                    # music player
