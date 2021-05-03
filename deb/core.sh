@@ -55,6 +55,7 @@ sudo apt install ncurses-term -y                 # optimized character screens u
 sudo apt install fontconfig -y                   # font configuration and customization library
 sudo apt install memcached libmemcached-dev -y   # caches database results in memory
 sudo apt install podman -y                       # Docker substitute - fuck docker
+sudo apt install geany -y                        # Fast and Lightweight IDE
 
 # Multimedia tools
 sudo apt install rhythmbox -y                    # music player
