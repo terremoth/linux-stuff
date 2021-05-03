@@ -54,7 +54,7 @@ sudo apt install exuberant-ctags -y              # parses source code and produc
 sudo apt install ncurses-term -y                 # optimized character screens updater for terminal 
 sudo apt install fontconfig -y                   # font configuration and customization library
 sudo apt install memcached libmemcached-dev -y   # caches database results in memory
-sudo apt install podman -y                       # similar to docker
+sudo apt install podman -y                       # Docker substitute - fuck docker
 
 # Multimedia tools
 sudo apt install rhythmbox -y                    # music player
@@ -70,6 +70,8 @@ sudo apt install smtube -y                       # Youtube videos browser
 sudo apt install kdenlive -y                     # Video Creator/Editor
 sudo apt install blender -y                      # Graphic modeler, also create videos with effects
 sudo apt install firefox -y                      # Mozilla Firefox Web Browser
+sudo apt install chromium-browser -y             # Chromium Web Browser
+sudo apt install falkon -y                       # Falkon Web Browser
 sudo apt install mplayer -y                      # Simple audio/video player
 sudo apt install cmus mp3blaster -y              # terminal music player
 sudo apt install vlc -y                          # Media Player
