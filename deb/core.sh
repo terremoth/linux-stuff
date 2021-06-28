@@ -29,6 +29,8 @@ sudo apt install libmagickwand-dev -y            # static libraries needed to co
 sudo apt install tree -y                         # generates a tree of the select directory
 sudo apt install mlocate -y                      # command locate, easier to find files or dirs better than "find" command
 sudo apt install units -y                        # units conversion tool plus calc
+sudo apt install numlockx -y                     # Numlock pad enabler
+sudo apt install apt-file -y                     # Apt file search util for find files in repositories
 
 # Network related shell tools
 sudo apt install net-tools -y                    # allow network commands like arp, ifconfig, netstat, rarp, nameif and route 
