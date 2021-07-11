@@ -33,7 +33,8 @@ sudo apt install numlockx -y                     # Numlock pad enabler
 sudo apt install apt-file -y                     # Apt file search util for find files in repositories
 
 # Network related shell tools
-sudo apt install net-tools -y                    # allow network commands like arp, ifconfig, netstat, rarp, nameif and route 
+sudo apt install net-tools netctl -y             # network tools that allow network commands like arp, ifconfig, netstat, rarp, nameif and route 
+sudo apt install iw wireless-tools -y            # wireless network tools
 sudo apt install slurm -y                        # network monitor
 sudo apt install netcat -y                       # arbitrary TCP and UDP connections and listens
 sudo apt install telnet -y                       # interface to telnet protocol
