@@ -11,10 +11,10 @@ sudo apt install gcc gdb -y                         # GNU compilers collection +
 sudo apt install default-jdk -y                     # Default Java Development Toolkit
 sudo apt install fasm nasm -y                       # most common assemblers
 sudo apt install python -y                          # Python language
-sudo apt install python-pip -y                      # Python repositories downloader/updater
+sudo apt install python-pip -y                      # Python repositories downloader/updater (package manager)
 sudo apt install markdown -y                        # Markdown text to html
 sudo apt install php -y                             # PHP language
-sudo apt install composer -y                        # PHP repositories downloader/updater
+sudo apt install composer -y                        # PHP repositories downloader/updater (package manager)
 sudo apt install perl -y                            # PERL Language
 sudo apt install sqlite sqlite-doc -y               # Minimal SQL database
 sudo apt install hsbrainfuck -y                     # Brainfuck language interpreter
@@ -25,3 +25,6 @@ sudo apt install chuck -y                           # audio programming language
 
 # Scheme implementations
 sudo apt install ikarus tinyscheme chibi-scheme chezscheme newlisp -y 
+
+# Tools
+sudo apt install apache2-utils -y                   # for Apache Benchmarking tool to test URL's
