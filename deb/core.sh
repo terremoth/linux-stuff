@@ -31,6 +31,8 @@ sudo apt install mlocate -y                      # command locate, easier to fin
 sudo apt install units -y                        # units conversion tool plus calc
 sudo apt install numlockx -y                     # Numlock pad enabler
 sudo apt install apt-file -y                     # Apt file search util for find files in repositories
+sudo apt install cal calendar -y                 # Calendar view and days comemoration
+sudo apt install pass -y                         # Command line password storage tool
 
 # Network related shell tools
 sudo apt install net-tools netctl -y             # network tools that allow network commands like arp, ifconfig, netstat, rarp, nameif and route 
