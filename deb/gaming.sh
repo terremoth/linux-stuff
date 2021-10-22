@@ -7,6 +7,8 @@ sudo apt install bsdgames -y                     # command line common games
 sudo apt install bsdgames-nonfree -y             # command line common games but not free: comment this whole line if you don't want non-free software
 sudo apt install 2048  -y                        # Classic 2048 game
 sudo apt install sudoku -y                       # Classic sudoku game
+sudo apt install snake4 -y                       # Classic snake game
+sudo apt install pacman pacman4console -y        # Classic pacman game
 
 # Emulators and Platform tools
 sudo apt install wine dosbox -y                  # most common utilites used for gaming with windows compatibility today
