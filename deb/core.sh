@@ -8,21 +8,26 @@ sudo apt upgrade -y
 sudo apt install firmware-linux-nonfree -y       # non-free firmware: comment this whole line if you don't want non-freeware
 
 # code/file editors
-sudo apt install vim-gtk3 nano neovim -y         # most common text editors
+sudo apt install vim vim-gtk3 nano neovim -y     # most common text editors
 
 # shell programs
+sudo apt install awk -y                          # AWK programming language and text processing utility
 sudo apt install util-linux -y                   # provides softwares to system maintenance 
 sudo apt install software-properties-common -y   # allows easily manage distribution and independent software vendor software sources 
 sudo apt install pv -y                           # progress data monitor via pipe
 sudo apt install bc -y                           # arbitrary precision calculator
 sudo apt install sed -y                          # text stream editor
 sudo apt install info -y                         # man alternative
-sudo apt install gzip zip unzip unrar ark -y     # zip files utilities
+sudo apt install gzip zip unzip ark tar -y       # zip files utilities
+sudo apt install rar unrar unrar-free -y         # rar files utilities
+sudo apt install p7zip p7zip-full p7zip-rar -y   # 7zip files utilities
 sudo apt install dirmngr -y                      # server for managing and downloading/update OpenPGP and X.509 certificates
 sudo apt install dialog -y                       # various GUI dialogs boxes to help development shell script programs  
 sudo apt install ccze -y                         # log colorizer
 sudo apt install ncdu -y                         # disk usage viewer
 sudo apt install htop -y                         # real time command line process monitor
+sudo apt install iotop -y                        # real time command line disk usage monitor
+sudo apt install glances -y                      # General System monitor
 sudo apt install apt-transport-https -y          # https in apt
 sudo apt install ack -y                          # grep better alternative
 sudo apt install libmagickwand-dev -y            # static libraries needed to compile programs using MagickWand
@@ -31,8 +36,11 @@ sudo apt install mlocate -y                      # command locate, easier to fin
 sudo apt install units -y                        # units conversion tool plus calc
 sudo apt install numlockx -y                     # Numlock pad enabler
 sudo apt install apt-file -y                     # Apt file search util for find files in repositories
-sudo apt install cal calendar -y                 # Calendar view and days comemoration
+sudo apt install date time calendar -y           # Calendar view and days comemoration
 sudo apt install pass -y                         # Command line password storage tool
+sudo apt install secure-delete -y                # Tool for "hard" deleting the file make almost unrecoverable
+sudo apt install members -y                      # Show members from a linux group
+sudo apt install screen -y                       # Terminal multiplexer with session handler
 
 # Network related shell tools
 sudo apt install net-tools netctl -y             # network tools that allow network commands like arp, ifconfig, netstat, rarp, nameif and route 
@@ -44,15 +52,15 @@ sudo apt install curl -y                         # requester, most used url tran
 sudo apt install wget -y                         # network downloader
 sudo apt install ssh -y                          # ssh server/client
 sudo apt install openssl -y                      # SSL/TLS tools
-
-# Gaming
-sudo apt install wine dosbox -y                  # most common utilites used for gaming with windows compatibility today
-sudo apt install bsdgames -y                     # command line common games 
-sudo apt install bsdgames-nonfree -y             # command line common games but not free: comment this whole line if you don't want non-free software
+sudo apt install dnsutils -y                     # DNS tools
+sudo apt install whois -y                        # WHO-IS network client
+sudo apt install iputils-ping -y                 # ping package
+sudo apt install traceroute -y                   # trace the IPs routes between you and a domain/ip
 
 # Programming languages and programming environment
-sudo apt install git git-flow -y                 # default software versioning 
-sudo apt install build-essential -y              # it will install commont tools to create deb packages like make and gcc
+sudo apt install git git-flow subversion -y      # default software versioning 
+sudo apt install build-essential re2c -y         # it will install common tools to create deb packages like make and gcc
+sudo apt install binutils -y                     # Tools to work with binary/compiled and text files
 sudo apt install software-properties-common -y   # easily manage your distribution and independent software vendor software sources
 sudo apt install libssl-dev -y                   # essential development libs, files and man pages to libssl and libcrypto
 sudo apt install exuberant-ctags -y              # parses source code and produces a sort of index mapping the names of significant entities
@@ -90,6 +98,7 @@ sudo apt install hardinfo -y                     # your hardware information too
 sudo apt install timeshift -y                    # System Restore utility
 sudo apt install deja-dup -y                     # Backup utility
 sudo apt install gnome-boxes -y                  # Access remove or virtual systems
+sudo apt install wine dosbox -y                  # most common utilites used to run windows applications
 
 # General day to day utility
 sudo apt install redshift-gtk -y                 # Night mode screen
