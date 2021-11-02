@@ -45,7 +45,8 @@ sudo apt install screen -y                       # Terminal multiplexer with ses
 # Network related shell tools
 sudo apt install net-tools netctl -y             # network tools that allow network commands like arp, ifconfig, netstat, rarp, nameif and route 
 sudo apt install iw wireless-tools -y            # wireless network tools
-sudo apt install slurm -y                        # network monitor
+sudo apt install mtr ethtool -y                  # network diagnosis tools
+sudo apt install slurm iftop bmon netplan.io -y  # network monitor tools
 sudo apt install netcat -y                       # arbitrary TCP and UDP connections and listens
 sudo apt install telnet -y                       # interface to telnet protocol
 sudo apt install curl -y                         # requester, most used url transfer
