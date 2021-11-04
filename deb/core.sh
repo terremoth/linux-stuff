@@ -22,7 +22,7 @@ sudo apt install gzip zip unzip ark tar -y       # zip files utilities
 sudo apt install rar unrar unrar-free -y         # rar files utilities
 sudo apt install p7zip p7zip-full p7zip-rar -y   # 7zip files utilities
 sudo apt install dirmngr -y                      # server for managing and downloading/update OpenPGP and X.509 certificates
-sudo apt install dialog -y                       # various GUI dialogs boxes to help development shell script programs  
+sudo apt install dialog glade zenity yad -y      # various GUI dialogs boxes types to help development shell script programs  
 sudo apt install ccze -y                         # log colorizer
 sudo apt install ncdu -y                         # disk usage viewer
 sudo apt install htop -y                         # real time command line process monitor
