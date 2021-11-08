@@ -42,6 +42,7 @@ sudo apt install pass -y                         # Command line password storage
 sudo apt install secure-delete -y                # Tool for "hard" deleting the file make almost unrecoverable
 sudo apt install members -y                      # Show members from a linux group
 sudo apt install screen -y                       # Terminal multiplexer with session handler
+sudo apt install tmux -y                         # Most known terminal multiplexer and session handler
 
 # Network related shell tools
 sudo apt install net-tools netctl -y             # network tools that allow network commands like arp, ifconfig, netstat, rarp, nameif and route 
