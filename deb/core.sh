@@ -30,6 +30,7 @@ sudo apt install iotop -y                        # real time command line disk u
 sudo apt install glances -y                      # General System monitor
 sudo apt install apt-transport-https -y          # https in apt
 sudo apt install ack -y                          # grep better alternative
+sudo apt install xclip -y                        # copy streams/file contents to clipboard
 sudo apt install libmagickwand-dev -y            # static libraries needed to compile programs using MagickWand
 sudo apt install tree -y                         # generates a tree of the select directory
 sudo apt install mlocate -y                      # command locate, easier to find files or dirs better than "find" command
