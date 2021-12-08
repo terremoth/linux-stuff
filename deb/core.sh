@@ -75,6 +75,7 @@ sudo apt install podman -y                       # Docker substitute - fuck dock
 sudo apt install geany -y                        # Fast and Lightweight IDE
 
 # Multimedia tools
+sudo apt install pavucontrol alsa-tools-gui -y   # tools to control audio and speakers
 sudo apt install rhythmbox -y                    # music player
 sudo apt install clementine -y                   # music player less bugged
 sudo apt install qbittorrent -y                  # most complete and free torrent downloader
