@@ -43,6 +43,8 @@ sudo apt install secure-delete -y                # Tool for "hard" deleting the 
 sudo apt install members -y                      # Show members from a linux group
 sudo apt install screen -y                       # Terminal multiplexer with session handler
 sudo apt install tmux -y                         # Most known terminal multiplexer and session handler
+sudo apt install beep -y                         # sound utility for command line that can emit beeps
+sudo apt install dkms -y                         # Kernel modules manager
 
 # Network related shell tools
 sudo apt install net-tools netctl -y             # network tools that allow network commands like arp, ifconfig, netstat, rarp, nameif and route 
@@ -62,7 +64,7 @@ sudo apt install traceroute -y                   # trace the IPs routes between 
 
 # Programming languages and programming environment
 sudo apt install git git-flow subversion -y      # default software versioning 
-sudo apt install build-essential re2c -y         # it will install common tools to create deb packages like make and gcc
+sudo apt install build-essential gdb re2c -y     # it will install common tools to create and install packages with make and gcc
 sudo apt install binutils -y                     # Tools to work with binary/compiled and text files
 sudo apt install software-properties-common -y   # easily manage your distribution and independent software vendor software sources
 sudo apt install libssl-dev -y                   # essential development libs, files and man pages to libssl and libcrypto
