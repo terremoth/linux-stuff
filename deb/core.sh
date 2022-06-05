@@ -4,14 +4,11 @@
 sudo apt update -y
 sudo apt upgrade -y
 
-# Firmware
-sudo apt install firmware-linux-nonfree -y       # non-free firmware: comment this whole line if you don't want non-freeware
-
 # code/file editors
 sudo apt install vim vim-gtk3 nano neovim -y     # most common text editors
 
 # shell programs
-sudo apt install awk -y                          # AWK programming language and text processing utility
+sudo apt install gawk -y                         # AWK programming language and text processing utility
 sudo apt install util-linux -y                   # provides softwares to system maintenance 
 sudo apt install software-properties-common -y   # allows easily manage distribution and independent software vendor software sources 
 sudo apt install pv -y                           # progress data monitor via pipe
