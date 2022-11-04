@@ -84,7 +84,8 @@ sudo apt install libreoffice -y                  # Libre Office Suite
 sudo apt install gimp inkscape imagemagick -y    # Image creation and manipulation programs
 sudo apt install mpv -y                          # simple media player - can also play youtube videos
 sudo apt install ffmpeg -y                       # mpeg tools
-sudo apt install youtube-dl -y                   # Command-line Video Downloader - support more than 100 sites 
+sudo apt install python3-brotli brotli           # tools for youtube-dl and yt-dlp ((de)compression)
+sudo apt install youtube-dl yt-dlp -y            # Command-line Video and audio Downloader - support more than 100 sites 
 sudo apt install smtube -y                       # Youtube videos browser
 sudo apt install kdenlive -y                     # Video Creator/Editor
 sudo apt install blender -y                      # Graphic modeler, also create videos with effects
