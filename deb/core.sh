@@ -74,6 +74,7 @@ sudo apt install memcached libmemcached-dev -y   # caches database results in me
 sudo apt install redis redis-server redis-tools -y # Redis server, client and tools
 sudo apt install podman -y                       # Docker substitute - fuck docker
 sudo apt install geany -y                        # Fast and Lightweight IDE
+sudo apt install default-jdk -y                  # Default LTS version of Open Java Dev. Kit
 
 # Multimedia tools
 sudo apt install pavucontrol alsa-tools-gui -y   # tools to control audio and speakers
