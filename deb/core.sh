@@ -58,7 +58,8 @@ sudo apt install openssl -y                      # SSL/TLS tools
 sudo apt install dnsutils -y                     # DNS tools
 sudo apt install whois -y                        # WHO-IS network client
 sudo apt install iputils-ping -y                 # ping package
-sudo apt install traceroute -y                   # trace the IPs routes between you and a domain/ip
+sudo apt install traceroute -y                   # trace the IPs routes between you and a domain/ipfd
+sudo apt install uidmap -y                       # for docker 
 
 # Programming languages and programming environment
 sudo apt install git git-flow subversion -y      # default software versioning 
@@ -84,7 +85,7 @@ sudo apt install libreoffice -y                  # Libre Office Suite
 sudo apt install gimp inkscape imagemagick -y    # Image creation and manipulation programs
 sudo apt install mpv -y                          # simple media player - can also play youtube videos
 sudo apt install ffmpeg -y                       # mpeg tools
-sudo apt install python3-brotli brotli           # tools for youtube-dl and yt-dlp ((de)compression)
+sudo apt install python3-brotli brotli -y        # tools for youtube-dl and yt-dlp ((de)compression)
 sudo apt install youtube-dl yt-dlp -y            # Command-line Video and audio Downloader - support more than 100 sites 
 sudo apt install smtube -y                       # Youtube videos browser
 sudo apt install kdenlive -y                     # Video Creator/Editor
@@ -98,6 +99,7 @@ sudo apt install vlc -y                          # Media Player
 sudo apt install mypaint -y                      # Drawing graphics tool
 
 # Hardware/System related
+sudo apt install gdebi -y                        # Deb graphical package installer
 sudo apt install gparted -y                      # disk partition tools
 sudo apt install testdisk -y                     # HDD disk+files recovery tool 
 sudo apt install hardinfo -y                     # your hardware information tool
