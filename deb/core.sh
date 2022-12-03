@@ -48,7 +48,8 @@ sudo apt install xdotool -y                      # Command-line X11 automation t
 sudo apt install net-tools netctl -y             # network tools that allow network commands like arp, ifconfig, netstat, rarp, nameif and route 
 sudo apt install iw wireless-tools -y            # wireless network tools
 sudo apt install mtr ethtool -y                  # network diagnosis tools
-sudo apt install slurm iftop bmon netplan.io -y  # network monitor tools
+sudo apt install slurm iftop bmon  -y            # network monitor tools
+sudo apt install vnstat netplan.io -y            # network monitor tools 2
 sudo apt install netcat -y                       # arbitrary TCP and UDP connections and listens
 sudo apt install telnet -y                       # interface to telnet protocol
 sudo apt install curl -y                         # requester, most used url transfer
@@ -60,6 +61,7 @@ sudo apt install whois -y                        # WHO-IS network client
 sudo apt install iputils-ping -y                 # ping package
 sudo apt install traceroute -y                   # trace the IPs routes between you and a domain/ipfd
 sudo apt install uidmap -y                       # for docker 
+sudo apt install mosh -y                         # A better SSH evolution that does not let session end  
 
 # Programming languages and programming environment
 sudo apt install git git-flow subversion -y      # default software versioning 
@@ -101,9 +103,9 @@ sudo apt install mypaint -y                      # Drawing graphics tool
 
 # Hardware/System related
 sudo apt install gdebi -y                        # Deb graphical package installer
-sudo apt install gparted -y                      # disk partition tools
+sudo apt install parted gparted -y               # disk partition tools
 sudo apt install testdisk -y                     # HDD disk+files recovery tool 
-sudo apt install hardinfo -y                     # your hardware information tool
+sudo apt install hardinfo inxi -y                # hardware information tools
 sudo apt install timeshift -y                    # System Restore utility
 sudo apt install deja-dup -y                     # Backup utility
 sudo apt install gnome-boxes -y                  # Access remove or virtual systems
