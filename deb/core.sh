@@ -43,6 +43,7 @@ sudo apt install tmux -y                         # Most known terminal multiplex
 sudo apt install beep -y                         # sound utility for command line that can emit beeps
 sudo apt install dkms -y                         # Kernel modules manager
 sudo apt install xdotool -y                      # Command-line X11 automation tool to click and type automatically
+sudo apt install samba smbclient -y              # Share your folders to Windows by network
 
 # Network related shell tools
 sudo apt install net-tools netctl -y             # network tools that allow network commands like arp, ifconfig, netstat, rarp, nameif and route 
