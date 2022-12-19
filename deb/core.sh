@@ -78,6 +78,7 @@ sudo apt install redis redis-server redis-tools -y # Redis server, client and to
 sudo apt install podman -y                       # Docker substitute - fuck docker
 sudo apt install geany -y                        # Fast and Lightweight IDE
 sudo apt install default-jdk -y                  # Default LTS version of Open Java Dev. Kit
+sudo apt install jq tidy -y                      # Default tools to handle JSON and HTML
 
 # Multimedia tools
 sudo apt install pavucontrol alsa-tools-gui -y   # tools to control audio and speakers
