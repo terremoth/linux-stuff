@@ -24,7 +24,6 @@ sudo apt install ccze -y                         # log colorizer
 sudo apt install ncdu -y                         # disk usage viewer
 sudo apt install htop -y                         # real time command line process monitor
 sudo apt install iotop -y                        # real time command line disk usage monitor
-sudo apt install glances -y                      # General System monitor
 sudo apt install apt-transport-https -y          # https in apt
 sudo apt install ack -y                          # grep better alternative
 sudo apt install xclip -y                        # copy streams/file contents to clipboard
@@ -82,12 +81,10 @@ sudo apt install jq tidy -y                      # Default tools to handle JSON 
 
 # Multimedia tools
 sudo apt install pavucontrol alsa-tools-gui -y   # tools to control audio and speakers
-sudo apt install rhythmbox -y                    # music player
 sudo apt install clementine -y                   # music player less bugged
 sudo apt install qbittorrent -y                  # most complete and free torrent downloader
 sudo apt install pidgin hexchat -y               # internet chating such ass IRCs
-sudo apt install libreoffice -y                  # Libre Office Suite
-sudo apt install gimp inkscape imagemagick -y    # Image creation and manipulation programs
+sudo apt install imagemagick -y                  # Image creation and manipulation programs
 sudo apt install mpv -y                          # simple media player - can also play youtube videos
 sudo apt install ffmpeg -y                       # mpeg tools
 sudo apt install python3-brotli brotli -y        # tools for youtube-dl and yt-dlp ((de)compression)
@@ -96,10 +93,10 @@ sudo apt install smtube -y                       # Youtube videos browser
 sudo apt install kdenlive -y                     # Video Creator/Editor
 sudo apt install blender -y                      # Graphic modeler, also create videos with effects
 sudo apt install firefox -y                      # Mozilla Firefox Web Browser
-sudo apt install chromium-browser -y             # Chromium Web Browser
 sudo apt install falkon -y                       # Falkon Web Browser
 sudo apt install mplayer -y                      # Simple audio/video player
-sudo apt install cmus mp3blaster -y              # terminal music player
+sudo apt install cmus -y                         # terminal music player 1
+sudo apt install mp3blaster -y                   # terminal music player 2
 sudo apt install vlc -y                          # Media Player
 sudo apt install mypaint -y                      # Drawing graphics tool
 
@@ -110,7 +107,6 @@ sudo apt install testdisk -y                     # HDD disk+files recovery tool
 sudo apt install hardinfo inxi -y                # hardware information tools
 sudo apt install timeshift -y                    # System Restore utility
 sudo apt install deja-dup -y                     # Backup utility
-sudo apt install gnome-boxes -y                  # Access remove or virtual systems
 sudo apt install wine dosbox -y                  # most common utilites used to run windows applications
 
 # General day to day utility
