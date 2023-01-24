@@ -22,6 +22,7 @@ sudo apt install icont icon-ipl iconx -y            # icon programming language 
 sudo apt install aplus-fsf aplus-fsf-dev aplus-fsf-doc  # A+ language, derived from APL
 sudo apt install afnix afnix-doc -y                 # Multi-threaded functional that support the object oriented paradigm
 sudo apt install chuck -y                           # audio programming language
+sudo apt install tcl tk tcsh -y                     # TCL and TK programming languages and shell
 
 # Scheme implementations
 sudo apt install ikarus tinyscheme chibi-scheme chezscheme newlisp -y 
