@@ -72,9 +72,6 @@ sudo apt install libssl-dev -y                   # essential development libs, f
 sudo apt install exuberant-ctags -y              # parses source code and produces a sort of index mapping the names of significant entities
 sudo apt install ncurses-term -y                 # optimized character screens updater for terminal 
 sudo apt install fontconfig -y                   # font configuration and customization library
-sudo apt install memcached libmemcached-dev -y   # caches database results in memory
-sudo apt install redis redis-server redis-tools -y # Redis server, client and tools
-sudo apt install podman -y                       # Docker substitute - fuck docker
 sudo apt install geany -y                        # Fast and Lightweight IDE
 sudo apt install default-jdk -y                  # Default LTS version of Open Java Dev. Kit
 sudo apt install jq tidy -y                      # Default tools to handle JSON and HTML
