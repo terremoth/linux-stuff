@@ -19,7 +19,7 @@ sudo apt install gzip zip unzip ark tar -y       # zip files utilities
 sudo apt install rar unrar unrar-free -y         # rar files utilities
 sudo apt install p7zip p7zip-full p7zip-rar -y   # 7zip files utilities
 sudo apt install dirmngr -y                      # server for managing and downloading/update OpenPGP and X.509 certificates
-sudo apt install dialog glade zenity yad -y      # various GUI dialogs boxes types to help development shell script programs  
+sudo apt install dialog zenity yad -y            # various GUI dialogs boxes types to help development shell script programs  
 sudo apt install ccze -y                         # log colorizer
 sudo apt install ncdu -y                         # disk usage viewer
 sudo apt install htop -y                         # real time command line process monitor
@@ -89,14 +89,11 @@ sudo apt install python3-brotli brotli -y        # tools for youtube-dl and yt-d
 sudo apt install youtube-dl yt-dlp -y            # Command-line Video and audio Downloader - support more than 100 sites 
 sudo apt install smtube -y                       # Youtube videos browser
 sudo apt install kdenlive -y                     # Video Creator/Editor
-sudo apt install blender -y                      # Graphic modeler, also create videos with effects
-sudo apt install firefox -y                      # Mozilla Firefox Web Browser
 sudo apt install falkon -y                       # Falkon Web Browser
 sudo apt install mplayer -y                      # Simple audio/video player
 sudo apt install cmus -y                         # terminal music player 1
 sudo apt install mp3blaster -y                   # terminal music player 2
 sudo apt install vlc -y                          # Media Player
-sudo apt install mypaint -y                      # Drawing graphics tool
 
 # Hardware/System related
 sudo apt install gdebi -y                        # Deb graphical package installer
