@@ -42,7 +42,7 @@ sudo apt install mlocate -y                      # command locate, easier to fin
 sudo apt install units -y                        # units conversion tool plus calc
 sudo apt install numlockx -y                     # Numlock pad enabler
 sudo apt install apt-file -y                     # Apt file search util for find files in repositories
-sudo apt install date time -y                    # Date and time (to execute) functions
+sudo apt install time -y                         # Date and time (to execute) functions
 sudo apt install ncal calendar -y                # Calendar view and days comemoration
 sudo apt install pass -y                         # Command line password storage tool
 sudo apt install secure-delete -y                # Tool for "hard" deleting the file make almost unrecoverable
@@ -60,7 +60,6 @@ sudo apt install iw wireless-tools -y            # wireless network tools
 sudo apt install mtr ethtool -y                  # network diagnosis tools
 sudo apt install slurm iftop bmon  -y            # network monitor tools
 sudo apt install vnstat netplan.io -y            # network monitor tools 2
-sudo apt install netcat -y                       # arbitrary TCP and UDP connections and listens
 sudo apt install telnet -y                       # interface to telnet protocol
 sudo apt install curl -y                         # requester, most used url transfer
 sudo apt install wget -y                         # network downloader
