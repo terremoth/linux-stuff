@@ -6,6 +6,7 @@ sudo apt install fortune -y                    # random adage
 sudo apt install cowsay -y                     # just let cow say something
 sudo apt install toilet -y                     # draw nice ascii words with styles
 sudo apt install lolcat -y                     # rainbow coloring text effect
+sudo apt install catimg -y                     # print images into terminal
 sudo apt install figlet -y                     # draw nice ascii words with styles
 sudo apt install espeak -y                     # speech synthesizer
 sudo apt install libaa-bin -y                  # ascii graphics
