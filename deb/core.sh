@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# I am sorry, this is for good (for me - you can remove these 2 lines below):
+# I am sorry, this is for good (for me - you can remove these 5 lines below):
 sudo apt purge libreoffice -y
 sudo apt purge libreoffice-* -y
 sudo systemctl stop snapd
@@ -114,3 +114,5 @@ sudo apt install wine dosbox -y                  # most common utilites used to 
 
 # General day to day utility
 sudo apt install redshift-gtk -y                 # Night mode screen
+
+sudo apt autoremove -y
