@@ -6,6 +6,7 @@ sudo apt purge libreoffice-* -y
 sudo systemctl stop snapd
 sudo apt purge snap -y
 sudo apt purge snapd -y
+sudo apt remove bluedevil quassel quassel-data qtpass qlipper noblenote -y
 
 
 # Update and Upgrade system packages before installation
