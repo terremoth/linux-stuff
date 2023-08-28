@@ -5,7 +5,7 @@ sudo apt purge libreoffice -y
 sudo apt purge libreoffice-* -y
 sudo systemctl stop snapd
 sudo apt purge snap -y
-sudo apt purge snad -y
+sudo apt purge snapd -y
 
 
 # Update and Upgrade system packages before installation
