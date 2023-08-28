@@ -1,0 +1,88 @@
+vim vim-gtk3 nano neovim    
+gawk                        
+util-linux                  
+software-properties-common  
+pv                          
+bc                          
+sed                         
+info                        
+gzip zip unzip ark tar      
+rar unrar unrar-free        
+p7zip p7zip-full p7zip-rar  
+dirmngr                     
+dialog zenity yad           
+ccze                        
+ncdu                        
+htop                        
+iotop                       
+apt-transport-https         
+ack                         
+xclip                       
+libmagickwand-dev           
+tree                        
+mlocate                     
+units                       
+numlockx                    
+apt-file                    
+time                   
+ncal calendar               
+pass                        
+secure-delete               
+members                     
+screen                      
+tmux                        
+beep                        
+dkms                        
+xdotool                     
+samba smbclient             
+net-tools netctl            
+iw wireless-tools           
+mtr ethtool                 
+slurm iftop bmon            
+vnstat netplan.io           
+telnet                      
+curl                        
+wget                        
+ssh                         
+openssl                     
+dnsutils                    
+whois                       
+iputils-ping                
+traceroute                  
+uidmap                      
+mosh                        
+git git-flow subversion     
+build-essential gdb re2c    
+binutils                    
+software-properties-common  
+libssl-dev                  
+exuberant-ctags             
+ncurses-term                
+fontconfig                  
+geany                       
+default-jdk                 
+jq tidy                     
+pavucontrol alsa-tools-gui  
+clementine                  
+qbittorrent                 
+pidgin hexchat              
+imagemagick                 
+mpv                         
+ffmpeg                      
+python3-brotli brotli       
+youtube-dl yt-dlp           
+smtube                      
+kdenlive                    
+falkon                      
+mplayer                     
+cmus                        
+mp3blaster                  
+vlc                         
+gdebi                       
+parted gparted              
+testdisk                    
+hardinfo inxi               
+timeshift                   
+deja-dup                    
+wine dosbox                 
+redshift-gtk                
