@@ -1,4 +1,9 @@
-vim vim-gtk3 nano neovim    
+vim vim-gtk3 nano neovim mg jove
+manpages-posix-dev
+manpages-posix
+manpages
+man-browser
+evtest
 gawk                        
 util-linux                  
 software-properties-common  
@@ -52,14 +57,14 @@ traceroute
 uidmap                      
 mosh                        
 git git-flow subversion     
-build-essential gdb re2c    
+build-essential gdb re2c autotools-dev  
 binutils                    
 software-properties-common  
 libssl-dev                  
 exuberant-ctags             
 ncurses-term                
 fontconfig                  
-geany                       
+geany codium
 default-jdk                 
 jq tidy                     
 pavucontrol alsa-tools-gui  
