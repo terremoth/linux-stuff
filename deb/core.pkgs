@@ -66,7 +66,7 @@ ncurses-term
 fontconfig                  
 geany codium
 default-jdk                 
-jq tidy                     
+jq tidy markdown
 pavucontrol alsa-tools-gui  
 clementine                  
 qbittorrent                 
