@@ -1,8 +1,10 @@
 #!/bin/sh
 
-# I am sorry, this is for good (for me - you can remove these 5 lines below):
+# I am sorry, this is for good (for me - you can remove these lines below):
 sudo apt purge libreoffice -y
 sudo apt purge libreoffice-* -y
+sudo snap disable firefox
+sudo snap remove --purge firefox
 sudo systemctl stop snapd
 sudo apt purge snap -y
 sudo apt purge snapd -y
