@@ -12,6 +12,4 @@ sudo apt remove bluedevil quassel quassel-data qtpass qlipper noblenote -y
 sudo apt update -y
 sudo apt upgrade -y
 
-sudo apt install $(cat core.pkgs) -y
-
-sudo apt autoremove && sudo apt autoclean
+sudo apt install $(cat core.pkgs) -y && sudo apt autoremove -y ; sudo apt autoclean -y
