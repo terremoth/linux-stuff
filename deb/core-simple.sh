@@ -8,9 +8,10 @@ sudo apt purge snap -y
 sudo apt purge snapd -y
 sudo apt remove bluedevil quassel quassel-data qtpass qlipper noblenote -y
 
-
 # Update and Upgrade system packages before installation
 sudo apt update -y
 sudo apt upgrade -y
 
 sudo apt install $(cat core.pkgs) -y
+
+sudo apt autoremove && sudo apt autoclean
