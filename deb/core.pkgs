@@ -2,7 +2,7 @@ vim vim-gtk3 nano neovim mg jove
 manpages-posix-dev
 manpages-posix
 manpages
-man-browser
+man-db
 evtest
 gawk                        
 util-linux                  
@@ -64,7 +64,7 @@ libssl-dev
 exuberant-ctags             
 ncurses-term                
 fontconfig                  
-geany codium
+geany
 default-jdk                 
 jq tidy markdown
 pavucontrol alsa-tools-gui  
