@@ -18,17 +18,17 @@ sudo apt remove bluedevil quassel quassel-data qtpass qlipper noblenote -y
 # Let's remove/purge any telemetry enabled:
 
 echo "[*] Resolving \"metrics.ubuntu.com\" to localhost"
-echo 127.0.0.1 www.metrics.ubuntu.com >>/etc/hosts
-echo 127.0.0.1 metrics.ubuntu.com >>/etc/hosts
+sudo echo 127.0.0.1 www.metrics.ubuntu.com >>/etc/hosts
+sudo echo 127.0.0.1 metrics.ubuntu.com >>/etc/hosts
 
 echo "[*] Resolving \"popcon.ubuntu.com\" to localhost"
-echo 127.0.0.1 www.popcon.ubuntu.com >>/etc/hosts
-echo 127.0.0.1 popcon.ubuntu.com >>/etc/hosts
+sudo echo 127.0.0.1 www.popcon.ubuntu.com >>/etc/hosts
+sudo echo 127.0.0.1 popcon.ubuntu.com >>/etc/hosts
 
 # == Remove and blacklist telemetry services:
 echo "[*] Removing telemetry services"
-apt purge -y ubuntu-report popularity-contest apport whoopsie apport-symptoms >/dev/null 2>&1 && apt-mark hold ubuntu-report popularity-contest apport whoopsie apport-symptoms
-ubuntu-report -f send no
+sudo apt purge -y ubuntu-report popularity-contest apport whoopsie apport-symptoms >/dev/null 2>&1 && sudo apt-mark hold ubuntu-report popularity-contest apport whoopsie apport-symptoms
+sudo ubuntu-report -f send no
 
 # Update and Upgrade system packages before installation
 sudo apt update -y
