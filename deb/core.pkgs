@@ -25,7 +25,6 @@ ack
 xclip                       
 libmagickwand-dev           
 tree                        
-mlocate                     
 units                       
 numlockx                    
 apt-file                    
@@ -89,5 +88,4 @@ testdisk
 hardinfo inxi               
 timeshift                   
 deja-dup                    
-wine dosbox                 
-redshift-gtk                
+wine dosbox
