@@ -1,0 +1,70 @@
+vim neovim ed nano 
+make cmake clang gcc git subversion base-devel
+gawk                              
+core-utils                        
+util-linux                        
+pv                                
+bc                                
+sed                               
+texinfo tldr                      
+gzip zip unzip tar rar p7zip      
+gnupg                             
+dialog glade zenity yad           
+ccze                              
+ncdu                              
+htop                              
+iotop                             
+glances                           
+ack                               
+xclip                             
+tree                              
+mlocate                           
+time                              
+pass                              
+secure-delete                     
+members                           
+screen                            
+tmux                              
+beep                              
+dkms                              
+xdotool                           
+net-tools netctl inetutils ethtool
+iw wireless-tools                 
+slurm iftop bmon netplan          
+netcat                            
+telnet                            
+curl                              
+wget                              
+openssh                           
+openssl                           
+dnsutils                          
+whois                             
+iputils                           
+traceroute                        
+gdb re2c                          
+binutils                          
+ctags                             
+ncurses                           
+fontconfig                        
+geany                             
+rhythmbox                         
+clementine                        
+qbittorrent                       
+pidgin hexchat                    
+libreoffice                       
+gimp inkscape imagemagick         
+mpv                               
+ffmpeg                            
+yt-dlp                            
+smtube                            
+kdenlive                          
+blender                           
+chromium                          
+falkon                            
+mplayer                           
+cmus                              
+vlc                               
+mypaint                           
+gparted                           
+hardinfo                          
+wine dosbox                       
