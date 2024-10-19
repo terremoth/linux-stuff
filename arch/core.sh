@@ -1,11 +1,11 @@
 #!/bin/sh
 
 sudo pacman -Syu
-sudo pacman -S yay
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 # Update and Upgrade system packages before installation
 
-yay -S gvim neovim ed nano --noconfirm                      # most common text editors
+yay -S vim neovim ed nano --noconfirm                       # most common text editors
 
 # Before everything, install programs that can install and build others:
 yay -S --noconfirm make cmake clang gcc git subversion base-devel
