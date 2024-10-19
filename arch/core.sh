@@ -11,7 +11,7 @@ yay -S vim neovim ed nano --noconfirm                       # most common text e
 yay -S --noconfirm make cmake clang gcc git subversion base-devel
 
 # shell programs
-yay -S gawk --noconfirm                                     # AWK programming language and text processing utility
+yay -S --noconfirm gawk                                     # AWK programming language and text processing utility
 yay -S --noconfirm core-utils                               # core commands utilities like "date"
 yay -S --noconfirm util-linux                               # provides softwares to system maintenance and cal command
 yay -S --noconfirm pv                                       # progress data monitor via pipe
@@ -76,13 +76,11 @@ yay -S --noconfirm libreoffice                              # Libre Office Suite
 yay -S --noconfirm gimp inkscape imagemagick                # Image creation and manipulation programs
 yay -S --noconfirm mpv                                      # simple media player - can also play youtube videos
 yay -S --noconfirm ffmpeg                                   # mpeg tools
-yay -S --noconfirm youtube-dl yt-dlp                        # Command-line Video Downloader - support more than 100 sites
+yay -S --noconfirm yt-dlp                                   # Command-line Video Downloader - support more than 100 sites
 yay -S --noconfirm smtube                                   # Youtube videos browser
 yay -S --noconfirm kdenlive                                 # Video Creator/Editor
 yay -S --noconfirm blender                                  # Graphic modeler, also create videos with effects
-yay -S --noconfirm firefox                                  # Mozilla Firefox Web Browser
 yay -S --noconfirm chromium                                 # Chromium Web Browser
-yay -S --noconfirm aur/google-chrome                        # Chrome Web Browser
 yay -S --noconfirm falkon                                   # Falkon Web Browser
 yay -S --noconfirm mplayer                                  # Simple audio/video player
 yay -S --noconfirm cmus                                     # terminal music player
@@ -91,12 +89,5 @@ yay -S --noconfirm mypaint                                  # Drawing graphics t
 
 # Hardware/System related
 yay -S --noconfirm gparted                                  # disk partition tools
-yay -S --noconfirm testdisk                                 # HDD disk+files recovery tool
 yay -S --noconfirm hardinfo                                 # Your hardware information tool
-yay -S --noconfirm timeshift                                # System Restore utility
-yay -S --noconfirm deja-dup                                 # Backup utility
-yay -S --noconfirm gnome-boxes                              # Access remove or virtual systems
 yay -S --noconfirm wine dosbox                              # most common utilites used to run windows applications
-
-# General day to day utility
-yay -S --noconfirm redshift-gtk                             # Night mode screen
