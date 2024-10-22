@@ -3,6 +3,7 @@
 # Gaming
 
 # Command line/terminal games
+sudo apt install crispy-doom -y                  # we all need doom, believe me 
 sudo apt install bsdgames -y                     # command line common games 
 sudo apt install bsdgames-nonfree -y             # command line common games but not free: comment this whole line if you don't want non-free software
 sudo apt install 2048  -y                        # Classic 2048 game
