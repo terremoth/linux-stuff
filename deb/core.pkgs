@@ -1,4 +1,4 @@
-vim vim-gtk3 nano neovim mg jove
+vim ed nano neovim
 manpages-posix-dev
 manpages-posix
 manpages
@@ -68,15 +68,14 @@ default-jdk
 jq tidy markdown
 pavucontrol alsa-tools-gui  
 clementine                  
-qbittorrent                 
+qbittorrent                
 pidgin hexchat              
 imagemagick                 
 mpv                         
 ffmpeg                      
 python3-brotli brotli       
 yt-dlp           
-smtube                      
-kdenlive                    
+smtube                                          
 falkon                      
 mplayer                     
 cmus                        
@@ -84,8 +83,5 @@ mp3blaster
 vlc                         
 gdebi                       
 parted gparted              
-testdisk                    
 hardinfo inxi               
-timeshift                   
-deja-dup                    
 wine dosbox
