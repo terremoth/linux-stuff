@@ -10,7 +10,8 @@ software-properties-common
 pv                          
 bc                          
 sed                         
-info                        
+info
+xxd
 gzip zip unzip ark tar      
 rar unrar unrar-free        
 p7zip p7zip-full p7zip-rar  
