@@ -5,13 +5,14 @@ manpages
 man-db
 evtest
 gawk                        
-util-linux                  
+util-linux
 software-properties-common  
 pv                          
 bc                          
 sed                         
 info
 xxd
+dos2unix
 gzip zip unzip ark tar      
 rar unrar unrar-free        
 p7zip p7zip-full p7zip-rar  
@@ -31,7 +32,7 @@ numlockx
 apt-file                    
 time                   
 ncal calendar               
-pass                        
+pass
 secure-delete               
 members                     
 screen                      
@@ -58,7 +59,10 @@ uidmap
 mosh                        
 git git-flow subversion     
 build-essential gdb re2c autotools-dev  
-binutils                    
+binutils
+perl 
+debhelper
+libncurses-dev bison flex libssl-dev libelf-dev libdw-dev
 software-properties-common  
 libssl-dev                  
 exuberant-ctags             
