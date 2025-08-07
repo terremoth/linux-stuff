@@ -6,7 +6,7 @@ man-db
 evtest
 gawk                        
 util-linux
-software-properties-common  
+  
 pv                          
 bc                          
 sed                         
@@ -41,7 +41,7 @@ beep
 dkms                        
 xdotool                     
 samba smbclient             
-net-tools netctl            
+net-tools             
 iw wireless-tools           
 mtr ethtool                 
 slurm iftop bmon            
@@ -63,7 +63,7 @@ binutils
 perl 
 debhelper
 libncurses-dev bison flex libssl-dev libelf-dev libdw-dev
-software-properties-common  
+  
 libssl-dev                  
 exuberant-ctags             
 ncurses-term                
@@ -80,7 +80,7 @@ mpv
 ffmpeg                      
 python3-brotli brotli       
 yt-dlp           
-smtube                                          
+                                          
 falkon                      
 mplayer                     
 cmus                        
